@@ -50,6 +50,7 @@ h2 {
 }
 
 nav {
+	/* border-bottom: 2px solid #6b59ef; */
 	height: 75px;
 	position: fixed;
 	z-index: 1;
@@ -162,7 +163,7 @@ p {letter-spacing: .075em}
 }
 
 .subtitle {
-	font-size: 1.15em;
+	font-size: 1.25em;
 	line-height: 2em;
 	margin: 3em 0;
 	text-align: center;
