@@ -44,7 +44,7 @@ body {
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
-	padding: 3em 0;
+	margin: 3em 0;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -171,7 +171,7 @@ p {letter-spacing: .075em}
 
 /* Media Queries ------------------------------ */
 
-/* Desktop Only */
+/* Desktop only */
 @media only screen and (min-width: 960px) and (min-resolution: 72dpi) {
 	a:hover {color: #6b59ef;}
 	
@@ -197,10 +197,12 @@ p {letter-spacing: .075em}
 	}
 }
 
+/* Small device */
 @media only screen and (max-width: 480px) {
+	h2 {font-size: 1.75em;}
 	
 	.row {flex-direction: column;}
-	.col--whole {flex: 0 0 auto;}
+	.col--half, .col--whole {flex: 0 0 auto;}
 	
 	.jumbotron {
 		justify-content: center;
@@ -211,14 +213,17 @@ p {letter-spacing: .075em}
 		line-height: 1.5em;
 	}
 	
-	.nav__ul {
+	/* .nav__ul {
 		display: inline-block;
 		left: 0;
 		position: absolute;
 		top: 0;
 	}
 	
-	.nav__ul li {display: block;}
+	.nav__ul li {display: block;} */
+	
+	.preview__image {margin-right: 0;}
+	.preview__title {margin-top: 1em;}
 }
 
 /* Test Components -------------------------- */
