@@ -1,0 +1,437 @@
+/* SOCIAL STYLE CLASSES 
+ * -------------------------- */
+/* FA based classes */
+/*! Useful brand and social color styles and effects with CSS classes - PIXEDEN
+ *  v.1.1.2
+ *  License - (CSS: MIT License)
+ */
+/* Social font colors if applicable & hover */
+.pe-color.pe-so-500px, .pe-hover.pe-so-500px:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-aim, .pe-hover.pe-so-aim:hover {
+  color: #f8981d;
+}
+
+.pe-color.pe-so-amazon, .pe-hover.pe-so-amazon:hover {
+  color: #f8981d;
+}
+
+.pe-color.pe-so-android, .pe-hover.pe-so-android:hover {
+  color: #adbf42;
+}
+
+.pe-color.pe-so-app-store, .pe-hover.pe-so-app-store:hover {
+  color: #2b8ef0;
+}
+
+.pe-color.pe-so-apple, .pe-hover.pe-so-apple:hover {
+  color: #666666;
+}
+
+.pe-color.pe-so-behance, .pe-hover.pe-so-behance:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-bitbucket, .pe-hover.pe-so-bitbucket:hover {
+  color: #083765;
+}
+
+.pe-color.pe-so-blogger, .pe-hover.pe-so-blogger:hover {
+  color: #ec672f;
+}
+
+.pe-color.pe-so-codepen, .pe-hover.pe-so-codepen:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-css3, .pe-hover.pe-so-css3:hover {
+  color: #428bc8;
+}
+
+.pe-color.pe-so-deviantart-1, .pe-hover.pe-so-deviantart-1:hover {
+  color: #c5d226;
+}
+
+.pe-color.pe-so-deviantart-2, .pe-hover.pe-so-deviantart-2:hover {
+  color: #5dc148;
+}
+
+.pe-color.pe-so-digg, .pe-hover.pe-so-digg:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-dribbble, .pe-hover.pe-so-dribbble:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-dropbox, .pe-hover.pe-so-dropbox:hover {
+  color: #1f85e2;
+}
+
+.pe-color.pe-so-drupal, .pe-hover.pe-so-drupal:hover {
+  color: #175a8e;
+}
+
+.pe-color.pe-so-etsy, .pe-hover.pe-so-etsy:hover {
+  color: #ca6d32;
+}
+
+.pe-color.pe-so-evernote, .pe-hover.pe-so-evernote:hover {
+  color: #8bb847;
+}
+
+.pe-color.pe-so-facebook, .pe-hover.pe-so-facebook:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-firefox, .pe-hover.pe-so-firefox:hover {
+  color: #ea932f;
+}
+
+.pe-color.pe-so-flattr, .pe-hover.pe-so-flattr:hover {
+  color: #f17b30;
+}
+
+.pe-color.pe-so-forrst, .pe-hover.pe-so-forrst:hover {
+  color: #5c9a68;
+}
+
+.pe-color.pe-so-foursquare, .pe-hover.pe-so-foursquare:hover {
+  color: #f94877;
+}
+
+.pe-color.pe-so-git, .pe-hover.pe-so-git:hover {
+  color: #181616;
+}
+
+.pe-color.pe-so-github, .pe-hover.pe-so-github:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-google-plus, .pe-hover.pe-so-google-plus:hover {
+  color: #d93f2d;
+}
+
+.pe-color.pe-so-grooveshark, .pe-hover.pe-so-grooveshark:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-habbo, .pe-hover.pe-so-habbo:hover {
+  color: #f4d631;
+}
+
+.pe-color.pe-so-hacker-news, .pe-hover.pe-so-hacker-news:hover {
+  color: #f07530;
+}
+
+.pe-color.pe-so-html5, .pe-hover.pe-so-html5:hover {
+  color: #e4723e;
+}
+
+.pe-color.pe-so-ie, .pe-hover.pe-so-ie:hover {
+  color: #398cec;
+}
+
+.pe-color.pe-so-instagram, .pe-hover.pe-so-instagram:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-jsfiddle, .pe-hover.pe-so-jsfiddle:hover {
+  color: #4c7dbb;
+}
+
+.pe-color.pe-so-lanyrd, .pe-hover.pe-so-lanyrd:hover {
+  color: #3c80c9;
+}
+
+.pe-color.pe-so-lastfm, .pe-hover.pe-so-lastfm:hover {
+  color: #d53e2a;
+}
+
+.pe-color.pe-so-linkedin, .pe-hover.pe-so-linkedin:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-linux, .pe-hover.pe-so-linux:hover {
+  color: #edb933;
+}
+
+.pe-color.pe-so-love, .pe-hover.pe-so-love:hover {
+  color: #f098af;
+}
+
+.pe-color.pe-so-myspace, .pe-hover.pe-so-myspace:hover {
+  color: #030303;
+}
+
+.pe-color.pe-so-odnolassniki, .pe-hover.pe-so-odnolassniki:hover {
+  color: #f28431;
+}
+
+.pe-color.pe-so-openid, .pe-hover.pe-so-openid:hover {
+  color: #e68735;
+}
+
+.pe-color.pe-so-opera, .pe-hover.pe-so-opera:hover {
+  color: #c54237;
+}
+
+.pe-color.pe-so-paypal-1, .pe-hover.pe-so-paypal-1:hover {
+  color: #4299d5;
+}
+
+.pe-color.pe-so-paypal-2, .pe-hover.pe-so-paypal-2:hover {
+  color: #4299d5;
+}
+
+.pe-color.pe-so-pied-piper, .pe-hover.pe-so-pied-piper:hover {
+  color: #529749;
+}
+
+.pe-color.pe-so-pinterest, .pe-hover.pe-so-pinterest:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-qq, .pe-hover.pe-so-qq:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-qzone, .pe-hover.pe-so-qzone:hover {
+  color: #ebb34b;
+}
+
+.pe-color.pe-so-rdio, .pe-hover.pe-so-rdio:hover {
+  color: #277fc1;
+}
+
+.pe-color.pe-so-reddit, .pe-hover.pe-so-reddit:hover {
+  color: #ef5f30;
+}
+
+.pe-color.pe-so-renren, .pe-hover.pe-so-renren:hover {
+  color: #17609e;
+}
+
+.pe-color.pe-so-rss, .pe-hover.pe-so-rss:hover {
+  color: #ef6130;
+}
+
+.pe-color.pe-so-safari-1, .pe-hover.pe-so-safari-1:hover {
+  color: #55a4c8;
+}
+
+.pe-color.pe-so-safari-2, .pe-hover.pe-so-safari-2:hover {
+  color: #55a4c8;
+}
+
+.pe-color.pe-so-share, .pe-hover.pe-so-share:hover {
+  color: #38692d;
+}
+
+.pe-color.pe-so-skype, .pe-hover.pe-so-skype:hover {
+  color: #3fabe3;
+}
+
+.pe-color.pe-so-slideshare, .pe-hover.pe-so-slideshare:hover {
+  color: #6aa3a6;
+}
+
+.pe-color.pe-so-soundcloud, .pe-hover.pe-so-soundcloud:hover {
+  color: #ed462f;
+}
+
+.pe-color.pe-so-spotify, .pe-hover.pe-so-spotify:hover {
+  color: #7ac701;
+}
+
+.pe-color.pe-so-stack-exchange, .pe-hover.pe-so-stack-exchange:hover {
+  color: #205798;
+}
+
+.pe-color.pe-so-stack-overflow, .pe-hover.pe-so-stack-overflow:hover {
+  color: #f49731;
+}
+
+.pe-color.pe-so-steam, .pe-hover.pe-so-steam:hover {
+  color: #171a20;
+}
+
+.pe-color.pe-so-stumbleupon, .pe-hover.pe-so-stumbleupon:hover {
+  color: #e6442e;
+}
+
+.pe-color.pe-so-tencent-weibo, .pe-hover.pe-so-tencent-weibo:hover {
+  color: #3089b3;
+}
+
+.pe-color.pe-so-trello, .pe-hover.pe-so-trello:hover {
+  color: #316782;
+}
+
+.pe-color.pe-so-tripadvisor, .pe-hover.pe-so-tripadvisor:hover {
+  color: #679045;
+}
+
+.pe-color.pe-so-tumblr, .pe-hover.pe-so-tumblr:hover {
+  color: #45556c;
+}
+
+.pe-color.pe-so-twitch, .pe-hover.pe-so-twitch:hover {
+  color: #5c4fa3;
+}
+
+.pe-color.pe-so-twitter, .pe-hover.pe-so-twitter:hover {
+  color: #6b59ef;
+}
+
+.pe-color.pe-so-viadeo, .pe-hover.pe-so-viadeo:hover {
+  color: #e4a12d;
+}
+
+.pe-color.pe-so-vimeo, .pe-hover.pe-so-vimeo:hover {
+  color: #51b5e7;
+}
+
+.pe-color.pe-so-vine, .pe-hover.pe-so-vine:hover {
+  color: #51b489;
+}
+
+.pe-color.pe-so-vk, .pe-hover.pe-so-vk:hover {
+  color: #5a7fa6;
+}
+
+.pe-color.pe-so-wechat, .pe-hover.pe-so-wechat:hover {
+  color: #afdb24;
+}
+
+.pe-color.pe-so-weibo, .pe-hover.pe-so-weibo:hover {
+  color: #c84638;
+}
+
+.pe-color.pe-so-wikipedia, .pe-hover.pe-so-wikipedia:hover {
+  color: #696969;
+}
+
+.pe-color.pe-so-windows, .pe-hover.pe-so-windows:hover {
+  color: #3faeee;
+}
+
+.pe-color.pe-so-wordpress-1, .pe-hover.pe-so-wordpress-1:hover {
+  color: #454342;
+}
+
+.pe-color.pe-so-wordpress-2, .pe-hover.pe-so-wordpress-2:hover {
+  color: #454342;
+}
+
+.pe-color.pe-so-xing, .pe-hover.pe-so-xing:hover {
+  color: #225a61;
+}
+
+.pe-color.pe-so-yahoo-1, .pe-hover.pe-so-yahoo-1:hover {
+  color: #6e2e85;
+}
+
+.pe-color.pe-so-yahoo-2, .pe-hover.pe-so-yahoo-2:hover {
+  color: #342992;
+}
+
+.pe-color.pe-so-yelp, .pe-hover.pe-so-yelp:hover {
+  color: #c83a26;
+}
+
+.pe-color.pe-so-youtube-1, .pe-hover.pe-so-youtube-1:hover {
+  color: #e1422c;
+}
+
+.pe-color.pe-so-youtube-2, .pe-hover.pe-so-youtube-2:hover {
+  color: #e1422c;
+}
+
+.pe-color.pe-so-zerply, .pe-hover.pe-so-zerply:hover {
+  color: #9dbc79;
+}
+
+.pe-color.pe-so-bootstrap, .pe-hover.pe-so-bootstrap:hover {
+  color: #6f5499;
+}
+
+.pe-color.pe-so-pixeden, .pe-hover.pe-so-pixeden:hover {
+  color: #95a04a;
+}
+
+.pe-color.pe-so-magento, .pe-hover.pe-so-magento:hover {
+  color: #ed4a19;
+}
+
+.pe-color.pe-so-sass, .pe-hover.pe-so-sass:hover {
+  color: #cc6699;
+}
+
+.pe-color.pe-so-ubuntu, .pe-hover.pe-so-ubuntu:hover {
+  color: #dd4814;
+}
+
+.pe-color.pe-so-like, .pe-hover.pe-so-like:hover {
+  color: #3e5b98;
+}
+
+.pe-color.pe-so-chrome, .pe-hover.pe-so-chrome:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-delicious, .pe-hover.pe-so-delicious:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-ebay, .pe-hover.pe-so-ebay:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-flickr, .pe-hover.pe-so-flickr:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-google-drive, .pe-hover.pe-so-google-drive:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-joomla, .pe-hover.pe-so-joomla:hover {
+  color: #000;
+}
+
+.pe-color.pe-so-picasa, .pe-hover.pe-so-picasa:hover {
+  color: #000;
+}
+
+/* add padding for small width icons */
+.pe-pad {
+  padding: 0px 0.15em;
+}
+
+/* List for social links */
+.pe-social {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.pe-social li {
+  padding: 1em .75em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pe-vertical li {
+  padding: 5px;
+  display: block;
+}
+
+.pe-social a {
+  display: inline-block;
+  color: #fff;
+  /* Default black color for social links */
+}
+
+.pe-2x {font-size: 2em;}
