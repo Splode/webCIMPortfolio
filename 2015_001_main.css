@@ -127,6 +127,16 @@ p {letter-spacing: .075em}
 	color: #fff;
 }
 
+.button--white-on-plum {
+	border: solid #fff 2px;
+	color: #fff;
+}
+
+.button--white-on-plumMeat {
+	border: solid #fff 2px;
+	color: #fff;
+}
+
 .button--brightPurple {
 	border: solid #6b59ef 2px;
 	color: #6b59ef;
@@ -279,6 +289,16 @@ p {letter-spacing: .075em}
 	.button--white:hover, .button--white:focus, .button--white:active {
 		background-color: #fff;
 		color: #6b59ef;
+	}
+	
+	.button--white-on-plum:hover, .button--white-on-plum:focus, .button--white-on-plum:active {
+		background-color: #fff;
+		color: #2a2830;
+	}
+	
+	.button--white-on-plumMeat:hover, .button--white-on-plumMeat:focus, .button--white-on-plumMeat:active {
+		background-color: #fff;
+		color: #4e4e63;
 	}
 	
 	.button--brightPurple:hover, .button--brightPurple:focus, .button--brightPurple:active {
