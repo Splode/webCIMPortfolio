@@ -5,7 +5,9 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 </style>
-<rect id="XMLID_1_" class="st0" width="75" height="10.3"/>
-<rect id="XMLID_3_" y="64.7" class="st0" width="75" height="10.3"/>
-<rect id="XMLID_4_" y="32.3" class="st0" width="75" height="10.3"/>
+<g id="XMLID_2_">
+	<rect id="XMLID_1_" y="9.5" class="st0" width="75" height="10.3"/>
+	<rect id="XMLID_3_" y="55.2" class="st0" width="75" height="10.3"/>
+	<rect id="XMLID_4_" y="32.3" class="st0" width="75" height="10.3"/>
+</g>
 </svg>
