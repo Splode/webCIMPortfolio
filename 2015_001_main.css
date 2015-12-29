@@ -88,6 +88,13 @@ p {letter-spacing: .075em}
 
 /* Primary Layout --------------------------- */
 
+.arrowUp {
+	padding: 1em;
+	width: 3em;
+}
+
+.arrowUp a svg .arrow {transition: fill .25s ease-in-out;}
+
 .article {
 	margin-right: .75em;
 	text-align: center;
@@ -257,6 +264,56 @@ p {letter-spacing: .075em}
 	width: 100%;
 }
 
+.project-container {margin-top: -26em;}
+
+.project-container img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.project__endCap {
+	height: 25em;
+	margin-top: -20em;
+}
+
+.project-jumbotron {
+	align-items: center;
+	padding-top: 10em;
+	text-align: center;
+}
+
+.project-jumbotron__title {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
+	padding-bottom: .5em;
+}
+
+.project-jumbotron__subtitle {
+	color: #6b59ef;
+	font-size: 1.5em;
+	font-weight: normal;
+	padding-bottom: 1.5em;
+}
+
+.project-jumbotron__desc {
+	color: #fff;
+	line-height: 2em;
+	padding-bottom: 30em;
+	text-align: justify;
+}
+
+.project-jumbotron__desc a {
+	color: #6b59ef;
+}
+
+.project-jumbotron__desc--col-2 {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+}
+
 .subtitle {
 	font-size: 1.25em;
 	line-height: 2em;
@@ -269,6 +326,8 @@ p {letter-spacing: .075em}
 /* Desktop only */
 @media only screen and (min-width: 960px) and (min-resolution: 72dpi) {
 	a:hover {color: #6b59ef;}
+	
+	.arrowUp a svg:hover .arrow {fill: #2a2830;}
 	
 	.hvr-fade {
 		display: inline-block;
@@ -342,6 +401,13 @@ p {letter-spacing: .075em}
 		height: 125px;
 		width: 100px;
 		}
+	
+	.project-jumbotron__desc {text-align: center;}
+	.project-jumbotron__desc--col-2 {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	-moz-column-count: 1; /* Firefox */
+	column-count: 1;
+	}
 	
 	/* .nav__ul {
 		display: inline-block;
