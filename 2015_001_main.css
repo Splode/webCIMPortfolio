@@ -58,6 +58,8 @@ nav {
 
 p {letter-spacing: .075em}
 
+ul {list-style-type: none;}
+
 /* Colors ---------------------------------- */
 
 .brightPurple {color: #6b59ef;}
@@ -284,10 +286,18 @@ p {letter-spacing: .075em}
 }
 
 .project-jumbotron__title {
-	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
 	padding-bottom: .5em;
+}
+
+.project-jumbotron__services {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 2em;
+	padding-bottom: 6em;
+	padding-top: 2em;
+	text-align: justify;
+	text-transform: uppercase;
 }
 
 .project-jumbotron__subtitle {
@@ -313,6 +323,9 @@ p {letter-spacing: .075em}
 	-moz-column-count: 2; /* Firefox */
 	column-count: 2;
 }
+
+.services-module {margin: 5em 0;}
+.services-module__type {padding: 0 1em;}
 
 .subtitle {
 	font-size: 1.25em;
@@ -365,6 +378,8 @@ p {letter-spacing: .075em}
 		color: #fff;
 	}
 	
+	.full-width__headline a:hover {color: #fff;}
+	
 	.nav__logo a svg:hover .st0 {fill: #fff;}
 }
 
@@ -377,7 +392,7 @@ p {letter-spacing: .075em}
 		align-items:center;
 	}
 	
-	.col--half, .col--quarter, .col--whole {flex: 0 0 auto;}
+	.col--half, .col--quarter, .col--third, .col--whole {flex: 0 0 auto;}
 	
 	.article {margin: 0;}
 	.article__subtitle {width: 100%;}
@@ -423,4 +438,6 @@ p {letter-spacing: .075em}
 }
 
 /* Test Components -------------------------- */
-.test {background-color: grey;}
+.test {
+	background-color: grey;
+}
