@@ -34,6 +34,7 @@ a {
 }
 
 body {
+	background-color: #fff;
 	text-rendering: optimizeLegibility;
 	font-family: 'Roboto Slab', serif;
 	font-size: 18px;
@@ -309,6 +310,20 @@ ul {list-style-type: none;}
 	width: 100%;
 }
 
+.project-card:first-of-type {padding-right: 2em;}
+
+.project-card img {
+	height: auto;
+	width: 100%;
+}
+
+.project-card__title {
+	color: #6b59ef; /* brightPurple */
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	padding: 1em 0 2em 0;
+}
+
 .project-container {margin-top: -26em;}
 
 .project-container img {
@@ -331,7 +346,6 @@ ul {list-style-type: none;}
 .project-jumbotron__title {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
-	/* padding-bottom: .5em; */
 }
 
 .project-jumbotron__services {
@@ -530,6 +544,8 @@ ul {list-style-type: none;}
 	
 	.preview__image {margin-right: 0;}
 	.preview__title {margin-top: 1em;}
+	
+	.project-card:first-of-type {padding: 0;}
 }
 
 /* Test Components -------------------------- */
