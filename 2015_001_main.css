@@ -90,6 +90,22 @@ ul {list-style-type: none;}
 
 /* Primary Layout --------------------------- */
 
+.about img {
+	display: block;
+	height: auto;
+	margin: -2em auto 0 auto;
+	width: 100%;
+}
+
+.about__desc {
+	line-height: 2em;
+	padding-right: 2em;
+	text-align: justify;
+	text-indent: 2em;
+}
+
+.about__desc p {margin-bottom: 1em;}
+
 .arrowUp {
 	padding: 1em;
 	width: 3em;
@@ -241,6 +257,8 @@ ul {list-style-type: none;}
 	width: 100px;
 }
 
+.mar--top--high {margin-top: 6em;}
+
 .menu--mobile {display: none;}
 .menu__icon {display: none;}
 
@@ -264,6 +282,11 @@ ul {list-style-type: none;}
 	display: inline;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.pad--btm--micro {padding-bottom: .5em;}
+.pad--btm--sm {padding-bottom: 2em;}
+.pad--btm--med {padding-bottom: 4em;}
+.pad--btm--high {padding-bottom: 6em;}
 
 .preview {margin-bottom: 3em;}
 
@@ -308,7 +331,7 @@ ul {list-style-type: none;}
 .project-jumbotron__title {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
-	padding-bottom: .5em;
+	/* padding-bottom: .5em; */
 }
 
 .project-jumbotron__services {
@@ -412,7 +435,10 @@ ul {list-style-type: none;}
 
 /* Small device */
 @media only screen and (max-width: 480px) {
-	h2 {font-size: 1.75em;}
+	h2 {
+		font-size: 1.75em;
+		margin-top: 2em;
+	}
 	
 	.row {
 		flex-direction: column;
@@ -421,10 +447,19 @@ ul {list-style-type: none;}
 	
 	.col--half, .col--quarter, .col--third, .col--whole {flex: 0 0 auto;}
 	
+	.about__desc {padding-right: 0;}
+	.about img {margin: 2em auto;}
+	
 	.article {margin: 0;}
 	.article__subtitle {width: 100%;}
+	.article__subtitle:last-of-type {margin-bottom: 4em;}
 	
-	.footer {text-align: center;}
+	.footer {
+		text-align: center;
+		padding-top: 4em;
+	}
+	
+	.footer__list {line-height: 2em;}
 	.footer__section__title {margin-top: 1.5em;}
 	.footer__social {width: 100%;}
 	
@@ -478,6 +513,8 @@ ul {list-style-type: none;}
 		width: 100%;
 	}
 	
+	.nav__ul--active {background-color: #6b59ef;}
+	
 	.nav__ul a {padding: 1em 4em;}
 	
 	.nav__ul li {
@@ -488,6 +525,8 @@ ul {list-style-type: none;}
 	}
 	
 	.nav__ul li:last-of-type {border-bottom: 0;}
+	
+	.pad--btm--high {padding-bottom: 3em;}
 	
 	.preview__image {margin-right: 0;}
 	.preview__title {margin-top: 1em;}
