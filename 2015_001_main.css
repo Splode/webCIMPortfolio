@@ -3,7 +3,7 @@ Website Name: Christopher Murphy - Web Design + Development
 Website URL: http://www.christopherianmurphy.com
 Author: Christopher Ian Murphy
 Project Number: 2015_001
-Date: 2015-12-27
+Date: 2015-12-30
 ---------------------------------------------- */
 
 /* Colors
@@ -71,23 +71,61 @@ ul {list-style-type: none;}
 
 /* Flex Layout ------------------------------- */
 
-.row {display: flex;}
+.row {
+	display: -webkit-flex;
+	display: flex;
+}
 
-.col--tenth {flex: 0 0 10%;}
-.col--fifth {flex: 0 0 20%;}
-.col--quarter {flex: 0 0 25%;}
-.col--third {flex: 0 0 33.3333334%;}
-.col--half {flex: 0 0 50%;}
-.col--whole {flex: 1;}
+.col--tenth {
+	-webkit-flex: 0 0 10%;
+	flex: 0 0 10%;
+}
+
+.col--fifth {
+	-webkit-flex: 0 0 20%;
+	flex: 0 0 20%;
+}
+
+.col--quarter {
+	-webkit-flex: 0 0 25%;
+	flex: 0 0 25%;
+}
+
+.col--third {
+	-webkit-flex: 0 0 33.3333334%;
+	flex: 0 0 33.3333334%;
+}
+
+.col--half {
+	-webkit-flex: 0 0 50%;
+	flex: 0 0 50%;
+}
+
+.col--whole {
+	-webkit-flex: 1;
+	flex: 1;
+}
 
 .center {
+	-webkit-justify-content: center;
 	justify-content: center;
 	text-align: center;
 }
 
-.center-vert {align-items: center;}
-.space-around {justify-content: space-around;}
-.space-between {justify-content: space-between;}
+.center-vert {
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.space-around {
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+}
+
+.space-between {
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
 
 /* Primary Layout --------------------------- */
 
@@ -196,7 +234,9 @@ ul {list-style-type: none;}
 }
 
 .footer__social {
+	display: -webkit-flex;
 	display: flex;
+	-webkit-justify-content: space-around;
 	justify-content: space-around;
 	margin: 2em 0;
 }
@@ -221,6 +261,7 @@ ul {list-style-type: none;}
 
 .jumbotron {
 	height: 65vh;
+	-webkit-align-items: center;
 	align-items: center;
 }
 
@@ -264,9 +305,12 @@ ul {list-style-type: none;}
 .menu__icon {display: none;}
 
 .nav {
+	-webkit-align-items: center;
 	align-items: center;
+	display: -webkit-flex;
 	display: flex;
 	height: 75px;
+	-webkit-justify-content: space-between;
 	justify-content: space-between;
 }
 
@@ -274,7 +318,9 @@ ul {list-style-type: none;}
 .nav__logo a svg .st0 {transition: fill .25s ease-in-out;}
 
 .nav__ul {
+	display: -webkit-flex;
 	display: flex;
+	-webkit-justify-content: space-between;
 	justify-content: space-between;
 }
 
@@ -338,6 +384,7 @@ ul {list-style-type: none;}
 }
 
 .project-jumbotron {
+	-webkit-align-items: center;
 	align-items: center;
 	padding-top: 10em;
 	text-align: center;
@@ -455,11 +502,16 @@ ul {list-style-type: none;}
 	}
 	
 	.row {
+		-webkit-flex-direction: column;
 		flex-direction: column;
+		-webkit-align-items: center;
 		align-items:center;
 	}
 	
-	.col--half, .col--quarter, .col--third, .col--whole {flex: 0 0 auto;}
+	.col--half, .col--quarter, .col--third, .col--whole {
+		-webkit-flex: 0 0 auto;
+		flex: 0 0 auto;
+	}
 	
 	.about__desc {padding-right: 0;}
 	.about img {margin: 2em auto;}
@@ -480,6 +532,7 @@ ul {list-style-type: none;}
 	.full-width__headline {font-size: 1.25em;}
 	
 	.jumbotron {
+		-webkit-justify-content: center;
 		justify-content: center;
 	}
 	
@@ -515,11 +568,15 @@ ul {list-style-type: none;}
 		background-color: #2a2830;
 		border-bottom: 2px solid #6b59ef;
 		height: 100vh;
+		-webkit-justify-content: space-around;
 		justify-content: space-around;
 		width: 100%;
 	}
 	
-	.menu--mobile--active {display: flex;}
+	.menu--mobile--active {
+		display: -webkit-flex;
+		display: flex;
+	}
 	
 	.menu__icon {
 		background: url(00_assets/04_icons/2015_001_hamburger.svg) no-repeat;
